@@ -42,7 +42,7 @@ Training Accuracy: steadily increases
 
 Validation Accuracy: plateaus early — shows signs of overfitting
 
-![Accuracy Plot](accuracy_plot.png)
+![Accuracy Plot](Accuracyplot.png)
 
 ---
 
