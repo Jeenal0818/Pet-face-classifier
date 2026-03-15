@@ -32,7 +32,7 @@ for filename in os.listdir(image_dir):
 
 datagen = ImageDataGenerator(
     rescale=1./255,
-    validation_split=0.2,  # Important
+    validation_split=0.2,  
     rotation_range=20,
     zoom_range=0.2,
     width_shift_range=0.1,
@@ -65,7 +65,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.MaxPooling2D(2, 2),
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(128, activation='relu'),
-    tf.keras.layers.Dropout(0.5),  # Helps reduce overfitting
+    tf.keras.layers.Dropout(0.5),  
     tf.keras.layers.Dense(train_gen.num_classes, activation='softmax')
 ])
 
