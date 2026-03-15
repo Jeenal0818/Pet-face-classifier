@@ -1,6 +1,6 @@
 # 🐱 Pet Face Classification Using CNN
 
-This project performs **image classification of pet faces** (cats and dogs) using a **Convolutional Neural Network (CNN)** trained on the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/). It demonstrates end-to-end deep learning workflow from dataset preparation to training and evaluation.
+This project performs **image classification of pet faces** (cats and dogs) using a **Convolutional Neural Network (CNN)** trained on the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/). It demonstrates end-to-end model learning workflow from dataset preparation to training and evaluation.
 
 ---
 
