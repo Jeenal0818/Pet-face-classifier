@@ -8,7 +8,6 @@ This project performs **image classification of pet faces** (cats and dogs) usin
 
 The goal is to train a CNN model to classify images of pets by breed using facial images. The project handles:
 - Data download and preprocessing
-- Model architecture using Keras/TensorFlow
 - Training and validation
 - Visualization of model performance
 
@@ -20,7 +19,7 @@ The goal is to train a CNN model to classify images of pets by breed using facia
 - **Classes**: 37 pet breeds (cats and dogs)
 - **Images**: ~7,000 labeled pet images
 
-Images are organized automatically into subdirectories for training via Keras `flow_from_directory`.
+Images are organized automatically into subdirectories for training.
 
 ---
 
@@ -28,7 +27,6 @@ Images are organized automatically into subdirectories for training via Keras `f
 
 - **Language**: Python 3
 - **Libraries**:
-  - TensorFlow / Keras
   - NumPy
   - Matplotlib
   - shutil, os, urllib
