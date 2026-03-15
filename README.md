@@ -27,6 +27,7 @@ Images are organized automatically into subdirectories for training.
 
 - **Language**: Python 3
 - **Libraries**:
+  - Tensorflow
   - NumPy
   - Matplotlib
   - shutil, os, urllib
